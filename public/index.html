@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.dev.js"></script>
+    <title>Chat App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <div id="output"></div>
+                <div id="feedback"></div>
+            </div>
+        </div>
+        <br><br>
+
+            <div class="form-group">
+                <input type="text" class="form-control" id="handle" placeholder="Handle">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="message" placeholder="Message">
+            </div>
+            <div class="form-group">
+                <button class="form-control btn btn-primary" id="send">Send</button>
+            </div>
+
+    </div>
+
+
+
+    <script src="/jquery/dist/jquery.min.js"></script>
+    <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/chat.js"></script>
+</body>
+</html>
